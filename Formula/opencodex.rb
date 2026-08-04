@@ -6,7 +6,6 @@ class Opencodex < Formula
   license "MIT"
 
   depends_on "node"
-  depends_on "bun"
 
   def install
     system "npm", "install", *std_npm_args
@@ -14,6 +13,6 @@ class Opencodex < Formula
   end
 
   test do
-    assert_match "1.0.0", shell_output("#{bin}/ocx --version", 2)
+    assert_match "1.0.0", shell_output("#{bin}/ocx --version")
   end
 end
