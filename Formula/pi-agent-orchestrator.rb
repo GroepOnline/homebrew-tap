@@ -2,7 +2,7 @@ class PiAgentOrchestrator < Formula
   desc "Multi-agent orchestration for Pi — autonomous subagents, worktrees, swarms, schedules, handoffs"
   homepage "https://github.com/GroepOnline/pi-agent-orchestrator"
   url "https://registry.npmjs.org/@groeponline/pi-agent-orchestrator/-/pi-agent-orchestrator-0.18.0.tgz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "008db50b076912d67b9a1c3458ac77626d866f02c5626ec2ad3385faa45171b8"
   version "0.18.0"
   license "MIT"
 
