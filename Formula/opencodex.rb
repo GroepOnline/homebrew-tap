@@ -13,6 +13,6 @@ class Opencodex < Formula
   end
 
   test do
-    assert_match "1.1.1", shell_output("#{bin}/ocx --version")
+    assert_match version.to_s, shell_output("#{bin}/ocx --version")
   end
 end
