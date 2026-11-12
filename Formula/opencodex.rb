@@ -1,8 +1,8 @@
 class Opencodex < Formula
   desc "GroepOnline OpenCodex — universal provider proxy for Codex and Claude Code"
   homepage "https://github.com/GroepOnline/opencodex"
-  url "https://registry.npmjs.org/@groeponline/opencodex/-/opencodex-1.5.14.tgz"
-  sha256 "6d23972bebce9d9585050e363f365140a61311e4a1ffb26fb9e8fb43a296d4ea"
+  url "https://registry.npmjs.org/@groeponline/opencodex/-/opencodex-1.5.15.tgz"
+  sha256 "f2425d1c129e7db4adebaa487b3c783106ad7970f646765cd139a2c96f8a9a4e"
   license "MIT"
 
   depends_on "node"
